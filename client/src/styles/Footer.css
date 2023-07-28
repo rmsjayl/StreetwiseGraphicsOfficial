@@ -1,0 +1,142 @@
+.container--company {
+	background-color: #000;
+}
+
+.container--company__streetwise {
+	display: flex;
+}
+
+.companylogo {
+	padding: 10px;
+	width: 78px;
+	height: 70px;
+}
+
+.companyname {
+	padding: 22px 0 0 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Dokdo";
+	letter-spacing: 10px;
+	font-size: 28px;
+}
+
+.container--paragraph {
+	padding: 30px 20px 10px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.paragraph__team {
+	width: 100%;
+}
+
+.theteam {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 195px;
+}
+
+.members {
+	margin-top: 50px;
+	padding-left: 40px;
+}
+
+.members li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10px;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.members li:hover {
+	transform: translateY(-3px);
+	color: #ffff00;
+}
+
+.paragraph__texts {
+	width: 100%;
+	position: relative;
+	right: 290px;
+}
+
+.paragraphs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.paragraph__one,
+.paragraph__two,
+.paragraph__three {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	width: 159px;
+}
+
+.credits {
+	padding: 50px 0 35px 40px;
+	color: #fff;
+	font-style: italic;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+	font-size: 11px;
+}
+
+.row {
+	display: flex;
+	position: relative;
+	right: 150px;
+}
+
+.row__section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section1-div,
+.section2-div,
+.section3-div {
+	margin-left: 250px;
+}
+
+.section1,
+.section2,
+.section3 {
+	transition: 0.3s ease;
+	font-weight: 800;
+}
+
+.section1:hover,
+.section2:hover,
+.section3:hover {
+	transform: translateY(-3px);
+	color: #ffff00;
+	cursor: pointer;
+}
+
+.socialmedia__links {
+	position: relative;
+	left: 100px;
+}
+
+.connectwithus {
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.icons {
+	width: 40px;
+	height: 50px;
+	margin-left: 40px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	padding-top: 14px;
+}
+
+.icons:hover {
+	transform: translateY(-3px);
+}

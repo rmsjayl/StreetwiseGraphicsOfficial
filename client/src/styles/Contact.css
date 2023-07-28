@@ -1,0 +1,383 @@
+.container__contact--div {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+		url("../img/backgrounds/dusteffect3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.imagestreetwise {
+	position: relative;
+	top: 190px;
+	width: 1240px;
+	height: 500px;
+}
+
+.container-img {
+	opacity: 0.6;
+}
+
+.container--letters {
+	user-select: none;
+}
+
+.container--firstlayer {
+	color: #fff;
+	font-size: 90px;
+	text-transform: uppercase;
+	letter-spacing: 40px;
+	position: absolute;
+	top: 120px;
+	left: 570px;
+	font-weight: 600;
+}
+
+.container--secondlayer {
+	color: #fff;
+	font-size: 90px;
+	text-transform: uppercase;
+	letter-spacing: 40px;
+	position: absolute;
+	top: 120px;
+	left: 770px;
+	font-weight: 600;
+}
+
+.container--thirdlayer {
+	color: #fff;
+	font-size: 90px;
+	text-transform: uppercase;
+	letter-spacing: 40px;
+	position: absolute;
+	top: 120px;
+	left: 980px;
+	font-weight: 600;
+}
+
+.container--fourthlayer {
+	color: #fff;
+	font-size: 90px;
+	text-transform: uppercase;
+	letter-spacing: 40px;
+	position: absolute;
+	top: 120px;
+	left: 1188px;
+	font-weight: 600;
+}
+
+.letters {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	position: absolute;
+}
+
+.quotation {
+	position: absolute;
+	left: 96px;
+}
+
+.firstlayerspan,
+.secondlayerspan,
+.thirdlayerspan,
+.fourthlayerspan {
+	color: #ffff00;
+	position: absolute;
+}
+
+.container__contact--wrapper {
+	padding-top: 400px;
+}
+
+.row__contact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact__details {
+	padding-left: 50px;
+}
+
+.contact__details--detail {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #ffff00;
+}
+
+.contact__details--detail h1 {
+	letter-spacing: 3px;
+}
+
+.divider__getintouch {
+	background-color: #fff;
+	width: 70px;
+	height: 6px;
+	border-radius: 8px;
+	position: relative;
+	top: -34px;
+	left: 331px;
+}
+
+.lets {
+	position: relative;
+	top: -67px;
+	left: 420px;
+}
+
+.worktogether {
+	position: relative;
+	top: -62px;
+}
+
+.contact__details--info {
+	padding-left: 50px;
+	letter-spacing: 3px;
+	width: 670px;
+}
+
+.contact__details--info p {
+	color: #ffff00;
+	font-weight: 600;
+	font-size: 23px;
+}
+
+.contact__contact--container {
+	padding-top: 240px;
+	padding-left: 100px;
+}
+
+.contact__contact--container__header h1 {
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.bar__contact {
+	background-color: #fff;
+	width: 169px;
+	height: 8px;
+	border-radius: 8px;
+	position: relative;
+	left: 300px;
+	top: -27px;
+}
+
+.info {
+	margin-left: 40px;
+}
+
+.contact__contact--container__texts p {
+	margin-top: 15px;
+	width: 290px;
+	color: #fff;
+	font-weight: 600;
+	margin-left: 80px;
+	letter-spacing: 3px;
+	text-align: justify;
+}
+
+.contact__form--details h1 {
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: #fff;
+}
+
+.inputnames {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 70px 50px 46px;
+}
+
+.inputfirstname__header,
+.inputlastname__header {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 23px;
+	letter-spacing: 3px;
+}
+
+.userinputdetails {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: #fff 3px solid;
+	width: 150px;
+	padding: 10px 40px 8px 30px;
+	color: #fff;
+}
+
+.dateandtime {
+	padding: 70px 0 0 46px;
+}
+
+.dateandtimecontainer {
+	margin-top: 12px;
+	display: flex;
+	float: left;
+}
+
+.dateandtime h1 {
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 23px;
+	text-transform: uppercase;
+}
+
+.contactdet__row {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 70px 50px 46px;
+}
+
+.usercontact__details {
+	padding-top: 140px;
+}
+
+.contactdet__phonenum h1,
+.contactdet__email h1 {
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.container__session {
+	padding-top: 70px;
+}
+
+.container__session--header {
+	padding: 50px 70px 50px 46px;
+}
+
+.container__session--header h1 {
+	color: #fff;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+.container__message {
+	padding-top: 70px;
+}
+
+.container__message--header h1 {
+	padding: 50px 70px 10px 46px;
+	color: #fff;
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.selectdatetime {
+	margin: 0 0 5px 0;
+	width: 220px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	background-color: grey;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.lists {
+	margin: 0 0 5px 0;
+	width: 270px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	background-color: grey;
+	font-family: "Poppins";
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.userinput__message {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: #fff 3px solid;
+	width: 580px;
+	padding: 0px 40px 8px 30px;
+	color: #fff;
+}
+
+.messageholder {
+	padding-left: 46px;
+}
+
+.container__sendmessage {
+	padding-top: 140px;
+}
+
+.send__message {
+	padding-left: 112px;
+}
+
+.sendform {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 23px;
+	color: #fff;
+	transition: 0.3s ease;
+	background-color: transparent;
+	border: none;
+	font-weight: 700;
+	position: relative;
+	top: -24px;
+	cursor: pointer;
+}
+
+.mailicon__contact {
+	position: relative;
+	top: -21px;
+	left: -279px;
+	width: 80px;
+	height: 20px;
+}
+
+.send__message--bar {
+	border: 2px solid #fff;
+	width: 66px;
+	background-color: #fff;
+	position: relative;
+	top: -24px;
+	left: 0;
+}
+
+.sendform:hover {
+	color: #ffff00;
+}
+
+.blank {
+	height: 50px;
+}
+
+.error_msg--contact {
+	width: 50%;
+	margin-top: 50px;
+	padding: 4px;
+	font-size: 18px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.msg--contact {
+	width: 50%;
+	margin-top: 50px;
+	padding: 4px;
+	font-size: 15px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}

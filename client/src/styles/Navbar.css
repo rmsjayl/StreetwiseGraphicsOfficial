@@ -1,0 +1,176 @@
+.companyLogo {
+	width: 89px;
+	height: 90px;
+	filter: drop-shadow(7px 5px 4px);
+	position: fixed;
+	margin: 20px;
+	z-index: 999;
+}
+
+.container-company {
+	text-align: center;
+	justify-content: center;
+	width: 900px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	position: fixed;
+	filter: drop-shadow(7px 5px 4px);
+	z-index: 999;
+}
+
+.companyName {
+	font-family: "Dokdo";
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 12px;
+}
+
+.owner {
+	font-family: "Dokdo";
+	font-size: 28px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 25px;
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+
+.hamburger {
+	width: 28px;
+	position: absolute;
+	top: 35px;
+	right: 100px;
+	cursor: pointer;
+	position: fixed;
+	z-index: 999;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	z-index: 998;
+}
+
+.navbar #close,
+.menubar {
+	display: none;
+}
+
+.navbar #open,
+.menubar {
+	display: block;
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.12)),
+		url(../img/backgrounds/navbar.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	animation: dropdownmenu 0.3s ease-in-out;
+}
+
+.hamburger__menu--open .bar2 {
+	transform: translateY(2px) rotate(44deg);
+}
+
+.hamburger__menu--open .bar3 {
+	transform: translateY(-5px) rotate(-42deg);
+}
+
+.hamburger__menu--open .bar1 {
+	opacity: 0;
+	transform: translateY(8px);
+}
+
+.hamburger__menu--open .bar4 {
+	opacity: 0;
+	transform: translateY(-8px);
+}
+
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+	margin-top: 3px;
+	height: 4px;
+	width: 100%;
+	background-color: white;
+	transition: 0.3s ease-in-out;
+	filter: drop-shadow(7px 5px 4px);
+}
+
+.links {
+	display: block;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	top: 129px;
+}
+
+.and {
+	font-size: 40px;
+	position: relative;
+	text-transform: lowercase;
+	top: -26px;
+}
+
+.pagetab {
+	font-size: 126px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.3s ease-in-out;
+	color: #fff;
+	line-height: 104px;
+}
+
+.contactpagetab {
+	font-size: 126px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.3s ease-in-out;
+	color: #fff;
+	line-height: 104px;
+	position: relative;
+	top: 0;
+}
+
+.pagetab:hover {
+	color: #ffff00;
+	transform: scale(1.1);
+}
+
+.contactpagetab:hover {
+	color: #ffff00;
+	transform: scale(1.1);
+}
+
+.button-login,
+.button-register {
+	margin-top: 20px;
+}
+
+@keyframes dropdownmenu {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* @media screen and (max-width: 800px) and (min-width: 399px) {
+    .companyLogo {
+        margin: 20px 5px 20px 5px;
+        width: 86px;
+        height: 80px;
+    }
+
+    .hamburger {
+        position: absolute;
+        right: -220px;
+    }
+
+} */

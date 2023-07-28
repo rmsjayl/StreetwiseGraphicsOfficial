@@ -1,0 +1,126 @@
+.container__emailverify {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #f05a43;
+}
+
+.container__emailverify--wrapper {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 40px 0px;
+	border-radius: 40px;
+	box-shadow: 9px 7px 17px 0px rgba(0, 0, 0, 0.23);
+	animation: animation 0.3s ease;
+}
+
+.success_img {
+	width: 150px;
+	height: 190px;
+}
+
+.container--paragraph__verifysuccess {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 45%;
+}
+
+.container--paragraph__verifysuccess p {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.loginyouracc--text {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.container--login {
+	margin-top: 20px;
+}
+
+/* 404 page not found style */
+
+.container__pagenotfound {
+	width: 100vw;
+	height: 100vh;
+	user-select: none;
+	animation: pop 0.8s ease;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.container__pagenotfound--wrapper {
+	width: 100%;
+}
+
+.pagenotfound__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pagenotfoundlogo {
+	font-size: 300px;
+	margin-left: 100px;
+	position: relative;
+}
+
+.pagenotfoundtext {
+	width: 35%;
+	margin-right: 150px;
+	font-size: 100px;
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 125px;
+	line-height: 1em;
+}
+
+.pagenotfoundparagraph {
+	width: 35%;
+	font-weight: 600;
+	margin-left: 100px;
+	font-size: 39px;
+	text-align: center;
+}
+
+.pagenotfoundimage {
+	margin-right: 150px;
+}
+
+.invalidrobotlogo {
+	position: relative;
+	top: -150px;
+	width: 580px;
+	height: 530px;
+	transform: rotate(8deg);
+}
+
+@keyframes animation {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes pop {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(0);
+	}
+}

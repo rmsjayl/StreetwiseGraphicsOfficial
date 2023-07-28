@@ -1,0 +1,107 @@
+.container--content {
+	padding-top: 120px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.67)),
+		url(../img/backgrounds/dusttexture.jpg);
+}
+
+.header__termsandconditions,
+.header__prices {
+	padding: 0 0 4px 150px;
+	line-height: 4.2rem;
+	animation: dropdown 0.3s ease;
+}
+
+.termsandcondition {
+	color: #ffff00;
+	font-size: 86px;
+	text-transform: uppercase;
+}
+
+.pleaseread,
+.pricesandhowto {
+	font-size: 66px;
+	color: #ffff00;
+	text-transform: uppercase;
+	animation: dropdown 0.3s ease;
+}
+
+.paragraph__pleaseread,
+.paragraph__pricesandhowto {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	animation: dropdown 0.3s ease;
+}
+
+.pleasread__text,
+.pricesandhowto__text {
+	width: 1050px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 25px;
+	text-align: justify;
+	animation: dropdown 0.3s ease;
+}
+
+.options__content {
+	padding: 50px 0 20px 240px;
+	animation: dropdown 0.3s ease;
+}
+
+.option1__content,
+.option2__content {
+	padding: 10px 0 40px 0;
+}
+
+.option1__paragraph,
+.option2__paragraph {
+	font-size: 24px;
+	font-weight: 600;
+	padding-left: 80px;
+	text-align: justify;
+	width: 850px;
+	color: #fff;
+}
+
+.option {
+	font-size: 35px;
+	color: #ffff00;
+}
+
+.content__details {
+	width: 100%;
+	animation: dropdown 0.3s ease;
+}
+
+.gcashpayment,
+.paypalpayment {
+	font-size: 24px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+}
+
+.thankyou {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 100px 0;
+}
+
+.thankyou__text {
+	font-size: 40px;
+	color: #ffff00;
+	font-weight: 700;
+	animation: dropdown 0.3s ease;
+}
+
+@keyframes dropdown {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}

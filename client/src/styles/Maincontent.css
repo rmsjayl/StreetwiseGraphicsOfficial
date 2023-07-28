@@ -1,0 +1,275 @@
+.container-content {
+	width: 100%;
+	display: flex;
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.87)),
+		url(../img/backgrounds/building-background.jpeg);
+	background-size: cover;
+}
+
+.container-content__text {
+	position: relative;
+	margin-left: 80px;
+	top: 180px;
+	animation: dropdown 1.5s ease;
+}
+
+.container-content {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.87)),
+		url(../img/backgrounds/building-background.jpeg);
+	background-size: cover;
+}
+
+.container-content__text {
+	position: relative;
+	margin-left: 80px;
+	top: 180px;
+	animation: dropdown 1.5s ease;
+}
+
+.classytext {
+	position: absolute;
+	top: 120px;
+	left: 200px;
+	width: 1000px;
+	height: 600px;
+	opacity: 0.14;
+}
+
+.content__owner {
+	color: #ffff00;
+	font-family: "Sigmar One";
+	text-transform: uppercase;
+	letter-spacing: 18px;
+	font-size: 18px;
+}
+
+.content__company {
+	color: #ffff00;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-family: "Dokdo";
+	font-size: 80px;
+}
+
+.michaelangelo__pic {
+	position: relative;
+	top: 120px;
+	right: 10px;
+	animation: dropdown 1.5s ease;
+}
+
+.michaelangelo {
+	width: 420px;
+	height: 590px;
+	position: absolute;
+}
+
+#michaelangeloorig {
+	z-index: 3;
+}
+
+#michaelangeloyellow {
+	z-index: 2;
+	left: 30px;
+}
+
+#michaelangelowhite {
+	z-index: 1;
+	left: 50px;
+}
+
+.content-paragraph {
+	color: #fff;
+	width: 750px;
+	font-size: 35px;
+	font-weight: 600;
+	text-align: right;
+	line-height: 40px;
+	font-style: italic;
+	position: absolute;
+	top: 340px;
+	left: 240px;
+	animation: dropdown 1.5s ease;
+}
+
+@keyframes dropdown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+.content-paragraph {
+	color: #fff;
+	width: 750px;
+	font-size: 35px;
+	font-weight: 600;
+	text-align: right;
+	line-height: 40px;
+	font-style: italic;
+	position: absolute;
+	top: 340px;
+	left: 240px;
+	animation: dropdown 1.5s ease;
+}
+
+.newdesigns--image {
+	padding: 40px;
+}
+
+.newdesigns--image img {
+	width: 650px;
+	height: 850px;
+	pointer-events: none;
+	box-shadow: 29px 18px 9px -3px rgba(0, 0, 0, 0.1);
+}
+
+.inner-carousel {
+	display: flex;
+}
+
+.carousel {
+	overflow: hidden;
+	cursor: grab;
+}
+
+.header__text {
+	font-size: 120px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 70px 0 20px 70px;
+	font-style: italic;
+}
+
+.container--midpart {
+	display: flex;
+	justify-content: center;
+	margin: 190px 0 50px 0;
+	display: block;
+	text-align: center;
+	align-items: center;
+}
+
+.background--midpart {
+	width: 100%;
+}
+
+.midpart-text {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.midpart__paragraph {
+	font-size: 47px;
+	width: 890px;
+	font-weight: 600;
+	line-height: 3.8rem;
+}
+
+.design__text {
+	color: #fff;
+}
+
+.container--followus {
+	display: flex;
+	justify-content: center;
+}
+
+.btn--viewall {
+	display: flex;
+	float: right;
+	margin: 5px 30px 5px 20px;
+}
+
+.divider--line {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 8px;
+	margin: 45px 0 55px 0;
+}
+
+.div--line {
+	height: 100%;
+	width: 30%;
+	background-color: #000;
+	border-radius: 30px;
+}
+
+.container--botpart {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.botpart__paragraph {
+	font-size: 20px;
+	font-weight: 600;
+	width: 39%;
+	text-align: center;
+}
+
+.botpart__paragraph span {
+	color: #fff;
+}
+
+.container__contactlink {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 29px 0 0 0;
+}
+
+.container__contactlink--texts {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-left: 69px;
+}
+
+.graphic__designer,
+.worry,
+.work__together {
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.work__together {
+	position: relative;
+	top: -5.2px;
+}
+
+.contactlink--icons {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
+	margin-bottom: 200px;
+	opacity: 0.4;
+}
+
+.contactlink__text:hover {
+	color: #fff;
+}
+
+.contactlink__text {
+	font-weight: 500;
+	transition: 0.3s ease;
+}
+
+.mail-icon {
+	padding-right: 25px;
+}
+
+.arrow-icon {
+	padding-left: 25px;
+}

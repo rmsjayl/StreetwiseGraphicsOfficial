@@ -1,0 +1,135 @@
+.container__forgotpassword {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.forgotpassword__wrapper {
+	width: 35%;
+	background-color: #fff;
+	border-radius: 40px;
+	box-shadow: 9px 7px 17px 0px rgba(0, 0, 0, 0.23);
+	animation: animation 0.3s ease;
+}
+
+.forgotpassword__wrapper--header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.header {
+	font-size: 32px;
+	font-family: Dokdo;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.logostreet {
+	width: 60px;
+	height: 60px;
+}
+
+.resetpass__header h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-size: 42px;
+}
+
+.forgotpassword__paragraph {
+	margin-top: 22px;
+	text-align: center;
+}
+
+.havingtrouble__header {
+	font-weight: 900;
+	font-size: 22px;
+}
+
+.enteremail__paragraph--container {
+	display: flex;
+	justify-content: center;
+}
+
+.enteremail__paragraph {
+	width: 360px;
+	font-weight: 600;
+}
+
+.container__userinputemail {
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.inputemail__header {
+	display: flex;
+	justify-content: center;
+}
+
+.inputemail__header--container {
+	width: 80%;
+}
+
+.inputemail__header--container-paragraph {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.inputemail__header--container-userinput {
+	margin-top: 3px;
+	border: 2px solid rgba(128, 128, 128, 0.4);
+	border-radius: 80px;
+	padding: 5px;
+}
+
+.emailinput {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	margin-left: 8px;
+	width: 389px;
+	font-size: 16px;
+}
+
+.container__button--resetpass {
+	margin-top: 25px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.error_message_container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.error_msg,
+.message_msg {
+	width: 50%;
+	margin-top: 10px;
+	padding: 4px;
+	font-size: 10px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+@keyframes animation {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
